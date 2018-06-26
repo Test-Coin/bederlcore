@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bederl_bg.qm</file>
+        <file alias="ca">locale/bederl_ca.qm</file>
+        <file alias="cs">locale/bederl_cs.qm</file>
+        <file alias="da">locale/bederl_da.qm</file>
+        <file alias="de">locale/bederl_de.qm</file>
+        <file alias="en">locale/bederl_en.qm</file>
+        <file alias="en_US">locale/bederl_en_US.qm</file>
+        <file alias="es">locale/bederl_es.qm</file>
+        <file alias="fi">locale/bederl_fi.qm</file>
+        <file alias="fr_FR">locale/bederl_fr_FR.qm</file>
+        <file alias="hr">locale/bederl_hr.qm</file>
+        <file alias="it">locale/bederl_it.qm</file>
+        <file alias="ja">locale/bederl_ja.qm</file>
+        <file alias="ko_KR">locale/bederl_ko_KR.qm</file>
+        <file alias="nl">locale/bederl_nl.qm</file>
+        <file alias="pl">locale/bederl_pl.qm</file>
+        <file alias="pt">locale/bederl_pt.qm</file>
+        <file alias="pt_BR">locale/bederl_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bederl_ro_RO.qm</file>
+        <file alias="ru">locale/bederl_ru.qm</file>
+        <file alias="sk">locale/bederl_sk.qm</file>
+        <file alias="sv">locale/bederl_sv.qm</file>
+        <file alias="tr">locale/bederl_tr.qm</file>
+        <file alias="uk">locale/bederl_uk.qm</file>
+        <file alias="zh_CN">locale/bederl_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bederl_zh_TW.qm</file>
+    </qresource>
+</RCC>

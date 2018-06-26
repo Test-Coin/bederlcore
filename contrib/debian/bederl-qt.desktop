@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bederl
+Comment=Bederl P2P Cryptocurrency
+Comment[fr]=Bederl, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bederl, eşten eşe kriptografik sanal para birimi
+Exec=bederl-qt %u
+Terminal=false
+Type=Application
+Icon=bederl128
+MimeType=x-scheme-handler/bederl;
+Categories=Office;Finance;

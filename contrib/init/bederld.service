@@ -1,0 +1,26 @@
+[Unit]
+Description=Bederl's distributed currency daemon
+After=network.target
+
+[Service]
+User=bederl
+Group=bederl
+
+Type=forking
+PIDFile=/var/lib/bederld/bederld.pid
+
+ExecStart=/usr/bin/bederld -daemon -pid=/var/lib/bederld/bederld.pid \
+          -conf=/etc/bederl/bederl.conf -datadir=/var/lib/bederld
+
+ExecStop=-/usr/bin/bederl-cli -conf=/etc/bederl/bederl.conf \
+         -datadir=/var/lib/bederld stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
